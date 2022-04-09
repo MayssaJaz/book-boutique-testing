@@ -23,13 +23,6 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-book-boutique-unit-testing'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-book-boutique-unit-testing');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-book-boutique-unit-testing app is running!');
+    expect(app.title).toEqual('angular-book-boutique-testing');
   });
 });
