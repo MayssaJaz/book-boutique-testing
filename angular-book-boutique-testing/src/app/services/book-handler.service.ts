@@ -14,12 +14,13 @@ export class BookHandlerService {
     }),
   };
   Genres = [
-    { 1: 'Horror' },
-    { 2: 'Adventure' },
-    { 3: 'Fantasy' },
-    { 4: 'Detective' },
-    { 5: 'Historical' },
-    { 6: 'Science Fiction' },
+    'Horror',
+    'Adventure',
+    'Fantasy',
+    'Detective',
+    'Historical',
+    'Science Fiction',
+    'Romance',
   ];
   constructor(private http: HttpClient) {}
   getData(): Observable<any> {

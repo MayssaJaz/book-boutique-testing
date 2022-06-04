@@ -1,6 +1,6 @@
 export const CONSTANTS = {
-    getBooks: "https://625019be977373573f367fcf.mockapi.io/api/book",
-    addBook:"https://625019be977373573f367fcf.mockapi.io/api/book",
-    deleteBook: "https://625019be977373573f367fcf.mockapi.io/api/book"
+    getBooks: "http://localhost:3000/book",
+    addBook:"http://localhost:3000/book",
+    deleteBook: "http://localhost:3000/book"
 
 };
