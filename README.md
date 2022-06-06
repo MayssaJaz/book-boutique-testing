@@ -1,8 +1,8 @@
 # Overview
 This project is composed of two layers: the front layer & back layer.  
-The front layer that contains two screens: 
+The front layer contains two screens: 
 - The **home page** that displays the list of books  offering the possibilty to delete books.
--<img src="https://github.com/MayssaJaz/book-boutique-testing/blob/main/photos/front/home_page.png" />
+<img src="https://github.com/MayssaJaz/book-boutique-testing/blob/main/photos/front/home_page.png" />
 
 - The **add book page** with a form that contains all these **requited** fields :name/author/genres with a value that **either 'Horror',
     'Adventure',
@@ -11,7 +11,7 @@ The front layer that contains two screens:
     'Historical',
     'Science Fiction' or
     'Romance'**/number of pages that is **>=2**.  
--<img src="https://github.com/MayssaJaz/book-boutique-testing/blob/main/photos/front/add_page.png" />
+<img src="https://github.com/MayssaJaz/book-boutique-testing/blob/main/photos/front/add_page.png" />
 
 The back layer has 4 requests:
 -  Get all books.
