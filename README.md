@@ -11,7 +11,7 @@ The front layer that contains two screens:
     'Historical',
     'Science Fiction' or
     'Romance'**/number of pages that is **>=2**.  
- <img src="https://github.com/MayssaJaz/book-boutique-testing/blob/main/photos/front/add_page.png" />
+-<img src="https://github.com/MayssaJaz/book-boutique-testing/blob/main/photos/front/add_page.png" />
 
 The back layer has 4 requests:
 -  Get all books.
