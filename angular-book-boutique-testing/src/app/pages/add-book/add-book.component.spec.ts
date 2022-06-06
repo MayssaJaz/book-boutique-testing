@@ -61,7 +61,7 @@ describe('AddBookComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it("should containt `Book's name`", () => {
+  it("should contain `Book's name`", () => {
     const fixture = TestBed.createComponent(AddBookComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
@@ -77,7 +77,7 @@ describe('AddBookComponent', () => {
     ).toBeTrue();
   });
 
-  it('should containt `Author`', () => {
+  it('should contain `Author`', () => {
     const fixture = TestBed.createComponent(AddBookComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
@@ -85,7 +85,7 @@ describe('AddBookComponent', () => {
       'Author:'
     );
   });
-  it('should containt `Genre`', () => {
+  it('should contain `Genre`', () => {
     const fixture = TestBed.createComponent(AddBookComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
@@ -93,7 +93,7 @@ describe('AddBookComponent', () => {
       'Genre'
     );
   });
-  it("should containt `Book's number of pages`", () => {
+  it("should contain `Book's number of pages`", () => {
     const fixture = TestBed.createComponent(AddBookComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
