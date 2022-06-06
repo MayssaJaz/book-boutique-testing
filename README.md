@@ -54,11 +54,16 @@ cd nest-book-boutique-testing
 npm test
 ```
 ## End to end testing
-The test was performed on the front layer to test:
+The test was performed using cypress on the front layer to test:
 - If an element exists on the UI.
 - If creating multiple books with their data contained in the examples.json file  is possible.
 
-Check the demo inside **[video](angular-book-boutique-testing/cypress/videos)** folder
+To perform the end to end tests, just type these commands:
+```bash
+cd angular-book-boutique-testing
+node_modules/.bin/cypress run OR node_modules/.bin/cypress open
+```
+Check the demo inside **[videos](angular-book-boutique-testing/cypress/videos)** folder
 
 # Results of testing
 ## Unit testing
