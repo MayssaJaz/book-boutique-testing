@@ -58,6 +58,8 @@ The test was performed on the front layer to test:
 - If an element exists on the UI.
 - If creating multiple books with their data contained in the examples.json file  is possible.
 
+Check the demo inside **[video](angular-book-boutique-testing/cypress/videos)** folder
+
 # Results of testing
 ## Unit testing
 ## Integration testing
