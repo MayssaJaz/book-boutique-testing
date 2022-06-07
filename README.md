@@ -67,6 +67,8 @@ cd angular-book-boutique-testing
 node_modules/.bin/cypress run OR node_modules/.bin/cypress open
 ```
 Check the demo inside **[videos](angular-book-boutique-testing/cypress/videos)** folder
+## Acceptance testing
+This test is included in  **[here](acceptance-test)**
 
 # Results of testing
 ## Unit testing
